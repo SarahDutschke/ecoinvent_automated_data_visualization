@@ -73,5 +73,5 @@ Repository Structure
 
 Further information
 ------------
-Explanation of different [system models](https://www.ecoinvent.org/database/system-models-in-ecoinvent-3/system-models-in-ecoinvent-3.html) 
-[Example reports pdf] (https://www.ecoinvent.org/support/documents-and-files/example-datasets/example-datasets.html)
+- Explanation of different [system models](https://www.ecoinvent.org/database/system-models-in-ecoinvent-3/system-models-in-ecoinvent-3.html)
+- [Example reports pdf](https://www.ecoinvent.org/support/documents-and-files/example-datasets/example-datasets.html)
