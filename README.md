@@ -1,19 +1,19 @@
-# ecoinvent_automated_data_visualization
+# Automated data visualization and reporting with ecoinvent
 
+![](fertilizers_slider_3.7_2.jpg)
 
+This repository documents the deliverables of a capstone project of Propulsion Academy's Data Science program, which were elaborated by Angela Niederberger and Sarah Dutschke in collaboration with ecoinvent. The information presented here is not approved for any kind of commercial use.
 
+Project Team
+-----------
 
+[Sarah Dutschke](https://www.linkedin.com/in/sarah-dutschke/), 
+[Angela Niederberger](https://www.linkedin.com/in/angela-niederberger/)
 
+Supervisors
+-----------
 
-
-
-
-
-
-
-
-
-
+[Marie Bocher](linkedin.com/in/marie-bocher-8b6b5562), 
 [Albin Plathottathil](https://www.linkedin.com/in/albin-plathottathil/), 
 [Nitin Kumar](https://www.linkedin.com/in/drnitinkumar)
 
