@@ -63,3 +63,9 @@ Repository Structure
     ├── logs            <- new dir, created automatically, contains generated log for barplot and treemap generation
     ├── plots           <- new dir, created automatically, contains generated example plots in png format
     └── src             <- contains the following python scripts required for plotting
+        ├── data_loading.py         <- Adjust general settings here (path, font_type, hues, etc.) and find script for data import 
+        ├── data_processing.py      <- Script to preprocess data for both barplots and treemaps.
+        ├── helper_functions.py     <- Script for auxiliary functions
+        ├── list_preparation.py     <- Script for further data processing for treemaps.
+        ├── main.py                 <- Main script to produce barplots and treemaps in png format while generating a log in excel/csv.
+        └── plotting_functions.py   <- Script with subfunctions to plot barcharts and/or treemaps while generating a log in excel/csv.
