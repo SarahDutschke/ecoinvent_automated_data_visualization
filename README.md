@@ -48,8 +48,11 @@ A recording of the final presentation of these results can be accessed [here](ht
 
 Example plots
 ---------
+Example 1: 'combine harvesting (CH)'
 ![](barplot_1.png)
 ![](treemap_1.png)
+
+Example 2: 'power sawing, without catalytic converter (RER)'
 ![](barplot_2.png)
 ![](treemap_2.png)
 
