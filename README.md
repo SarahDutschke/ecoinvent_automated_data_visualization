@@ -46,7 +46,7 @@ As the final outcome of the capstone project, we consolidated all of our code in
 
 A recording of the final presentation of these results can be accessed [here](https://drive.google.com/file/d/1Jh67n0SGt3aIAk883NEZUIKCw5ZzZ4Sh/view?usp=sharing) and the project was also covered in this [blog post](https://propulsion.academy/blog/data-science-abschlussprojekte-batch-13).
 
-Example plots
+Results: example plots
 ---------
 Example 1: 'combine harvesting (CH)'
 ![](barplot_1.png)
