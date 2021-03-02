@@ -19,7 +19,7 @@ Supervisors
 
 Partners
  -------
- [ecoinvent](https://www.ecoinvent.org/) is a not-for-profit association that provides the world’s most consistent and transparent life cycle inventory database to a wide range of companies, government organizations and universities.
+[ecoinvent](https://www.ecoinvent.org/) is a not-for-profit association that provides the world’s most consistent and transparent life cycle inventory database to a wide range of companies, government organizations and universities.
 
 [Propulsion Academy](https://propulsion.academy/) is a coding and data science academy offering a variety of full-time, part-time, and corporate programs to motivated learners looking to enhance their careers with technology.
 
@@ -34,7 +34,6 @@ Project Milestones
 ### Milestone 1
  Impact visualization: Improve the table showing impact score, by adding a chart that shows the most significant contributors ('flow compartments'). Use data calculated from our release script, provided as csv files. This chart should allow to identify which part of the supply chain is responsible for impact score on the commonly used impact assessment methods.
 
-
  ### Milestone 2
  Network structure visualization: Add a treemap plot for each method to show the main contributors (impacts and emissions). It should display as many levels as necessary until the main impact contributor is below 50%. However, the limit of levels to diplay is five, due to space constraints. The data was provided as csv files and individual scores are calculated in the scripts.
  
@@ -47,21 +46,35 @@ As the final outcome of the capstone project, we consolidated all of our code in
 
 A recording of the final presentation of these results can be accessed [here](https://drive.google.com/file/d/1Jh67n0SGt3aIAk883NEZUIKCw5ZzZ4Sh/view?usp=sharing) and the project was also covered in this [blog post](https://propulsion.academy/blog/data-science-abschlussprojekte-batch-13).
 
+Example plots
+---------
+![](barplot_1.png)
+![](treemap_1.png)
+![](barplot_2.png)
+![](treemap_2.png)
+
 Requirements
 ------------
-The libraries required to run this product are the following:
-- numpy
-- pandas
-- plotly, version 4.14.3 or newer
-- pypardiso
-- scipy
-- xlwt
+The libraries required to run this product are the following (details in environment.yml and environment2.yml):
+  - ipykernel
+  - pandas
+  - plotly, version 4.14.3 or newer
+  - time
+  - xlwt
+  - scipy
+  - psutil
+  - requests
+  - plotly-orca
+  - pypardiso
+  - os
 
 Repository Structure
 ------------
     ├── README.md       <- top-level README file for anybody interested in this project
     ├── logs            <- new dir, created automatically, contains generated log for barplot and treemap generation
     ├── plots           <- new dir, created automatically, contains generated example plots in png format
+    ├── environment.yml <- environment file that lists the channels and dependencies needed for this project
+    ├── environment2.yml <- detailed environment file that contains specific versions used for this project
     └── src             <- contains the following python scripts required for plotting
         ├── data_loading.py         <- Adjust general settings here (path, font_type, hues, etc.) and find script for data import 
         ├── data_processing.py      <- Script to preprocess data for both barplots and treemaps.
@@ -74,5 +87,5 @@ Repository Structure
 Further information
 ------------
 - Explanation of different [system models](https://www.ecoinvent.org/database/system-models-in-ecoinvent-3/system-models-in-ecoinvent-3.html) from ecoinvent
-- ecoinvent's[example reports pdf](https://www.ecoinvent.org/support/documents-and-files/example-datasets/example-datasets.html)
+- ecoinvent's [example reports pdf](https://www.ecoinvent.org/support/documents-and-files/example-datasets/example-datasets.html)
 ![](pdf_teaser.png)
