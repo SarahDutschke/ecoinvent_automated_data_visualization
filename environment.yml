@@ -1,0 +1,22 @@
+name: ecoinvent
+channels:
+  - defaults
+  - haasad
+  - plotly
+  - jmcmurray
+  - anaconda
+  - conda-forge
+dependencies:
+  - ipykernel
+  - pandas
+  - plotly
+  - time
+  - xlwt
+  - scipy
+  - psutil
+  - requests
+  - plotly-orca
+  - pip:
+    - pypardiso
+    - os
+prefix: /opt/anaconda3/envs/ecoinvent
