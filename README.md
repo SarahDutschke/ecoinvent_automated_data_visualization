@@ -69,3 +69,9 @@ Repository Structure
         ├── list_preparation.py     <- Script for further data processing for treemaps.
         ├── main.py                 <- Main script to produce barplots and treemaps in png format while generating a log in excel/csv.
         └── plotting_functions.py   <- Script with subfunctions to plot barcharts and/or treemaps while generating a log in excel/csv.
+
+
+Further information
+------------
+Explanation of different [system models](https://www.ecoinvent.org/database/system-models-in-ecoinvent-3/system-models-in-ecoinvent-3.html) 
+[Example reports pdf] (https://www.ecoinvent.org/support/documents-and-files/example-datasets/example-datasets.html)
